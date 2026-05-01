@@ -8,7 +8,7 @@ This dashboard provides real-time insights into cryptocurrency markets with a cl
 
 🌐 Live Demo
 
-👉 
+👉 https://vercel.com/amiyaranjan499s-projects/crypto-dashboard/4jJU1rcZu7MwxTjgQ1bLosrgkBJ5
 
 ---
 
@@ -76,57 +76,14 @@ http://localhost:5173/
 ---
 
 📁 Folder Structure
+src/
+ ├── components/   # UI components
+ ├── hooks/        # Custom hooks
+ ├── services/     # API calls
+ ├── utils/        # Helper functions
+ ├── App.jsx
+ └── main.jsx
 
-crypto-dashboard/
-├── public/
-│   └── favicon.ico
-
-├── src/
-│   ├── components/
-│   │   ├── CoinDrawer.jsx        # Drawer panel for coin details
-│   │   ├── CoinRow.jsx           # Single coin row in table
-│   │   ├── CoinTable.jsx         # Main table of coins
-│   │   ├── ErrorState.jsx        # Error UI (API failure)
-│   │   ├── GlobalBar.jsx         # Market overview (cap, volume, dominance)
-│   │   ├── Header.jsx            # Top header (title, search, theme toggle)
-│   │   ├── MoversSection.jsx     # Top gainers & losers section
-│   │   ├── PriceChart.jsx        # Detailed chart in drawer
-│   │   ├── SearchBar.jsx         # Search input component
-│   │   ├── Skeleton.jsx          # Loading skeleton UI
-│   │   ├── Sparkline.jsx         # Mini 7-day chart
-│   │   ├── TopCards.jsx          # Dashboard summary cards
-│   │   ├── TrendingCoins.jsx     # Trending coins section
-│
-│   ├── hooks/
-│   │   ├── useCrypto.js          # Fetch + manage crypto data
-│   │   ├── useDebounce.js        # Debounce search input
-│   │   ├── useFavorites.js       # (Optional) favorite coins logic
-│   │   ├── useTheme.js           # Dark/Light theme toggle
-│
-│   ├── services/
-│   │   ├── api.js                # API calls (CoinGecko)
-│
-│   ├── utils/
-│   │   ├── format.js             # Currency, percent, number formatting
-│
-│   ├── routes/
-│   │   ├── index.jsx             # Route setup (if used)
-│
-│   ├── App.jsx                   # Main app layout
-│   ├── main.jsx                  # React entry point
-│   ├── App.css                   # Component styles
-│   ├── index.css                 # Global styles (Tailwind)
-│
-├── index.html                    # Root HTML file
-├── package.json                  # Dependencies & scripts
-├── package-lock.json             # Lock file
-├── vite.config.js                # Vite configuration
-├── tailwind.config.js            # Tailwind setup
-├── postcss.config.js             # PostCSS config
-├── .gitignore                    # Ignored files
-├── README.md                     # Project documentation
-
----
 
 🌐 API Used
 
